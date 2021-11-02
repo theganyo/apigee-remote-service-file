@@ -12,12 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:1.17.2-alpine AS build
-
-WORKDIR /src/
-COPY main.go go.* /src/
-RUN CGO_ENABLED=0 go build -o /apigee-remote-proxy-file
-
-FROM scratch
-COPY --from=build /apigee-remote-proxy-file /apigee-remote-proxy-file
-ENTRYPOINT ["/apigee-remote-proxy-file"]
+FROM golang:1.17
+WORKDIR /app
+ADD . .
+RUN go mod download
+RUN go build .
+ENTRYPOINT ["/app/apigee-remote-service-file"]
