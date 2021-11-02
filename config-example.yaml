@@ -1,0 +1,44 @@
+org: testorg
+env: test
+
+apiProducts:
+  - name: product1
+    description: product1
+    displayName: product1
+    environments: 
+      - test
+    operationGroup:
+      operationConfigType: remoteservice
+      operationConfigs:
+        - apiSource: host
+          attributes:
+            - name:  name
+              value: value
+          operations:
+            - resource: "/operation1"
+              methods: ["GET"]
+          quota:
+            interval: "1"
+            limit:    "1"
+            timeUnit: minute
+    apiResources:
+      - /
+    scopes:
+      - scope1
+    quota:         "1"
+    quotaInterval: "1"
+    quotaTimeUnit: minute
+    attributes: 
+      - name: apigee-remote-service-targets
+        value: target,target2
+    proxies:
+      - proxy1
+
+apps:
+  app1:
+    dev: foo@bar.com
+    credentials:
+      - key: "key"
+        secret: "secret"
+        products:
+          - product1

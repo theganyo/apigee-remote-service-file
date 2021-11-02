@@ -1,0 +1,30 @@
+# Apigee-Remote-Service-File
+
+A simple file-based service to stand in for the remote-service proxy
+on Apigee. All configuration is done locally in a YAML file and service
+responds to Envoy Adapter as if it were the Apigee proxy.
+
+## Usage
+
+### Build
+
+```sh
+go build .
+```
+
+### Make and edit config file
+
+```sh
+cp config-example.yaml config.yaml
+```
+
+### Run service
+
+```sh
+./apigee-remote-service-file -h
+```
+
+## Notes
+
+* No security checks on requests.
+* Quotas are maintained starting from zero.
