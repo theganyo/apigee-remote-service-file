@@ -2,11 +2,12 @@ module github.com/theganyo/apigee-remote-service-file
 
 go 1.17
 
-replace github.com/apigee/apigee-remote-service-golib/v2 => ../apigee-remote-service-golib
+// replace github.com/apigee/apigee-remote-service-golib/v2 => ../apigee-remote-service-golib
+// replace github.com/apigee/apigee-remote-service-envoy/v2 => ../apigee-remote-service-envoy
 
 require (
 	github.com/apigee/apigee-remote-service-envoy/v2 v2.0.2-0.20211029193315-1898ceeea739
-	github.com/apigee/apigee-remote-service-golib/v2 v2.0.2-0.20211028211932-ca805faaa43b
+	github.com/apigee/apigee-remote-service-golib/v2 v2.0.2-0.20211102200508-646e4794ecd1
 	github.com/lestrrat-go/jwx v1.2.5
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b

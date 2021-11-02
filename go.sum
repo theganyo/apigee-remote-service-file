@@ -59,6 +59,9 @@ github.com/apache/thrift v0.12.0/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb
 github.com/apache/thrift v0.13.0/go.mod h1:cp2SuWMxlEZw2r+iP2GNCdIi4C1qmUzdZFSVb+bacwQ=
 github.com/apigee/apigee-remote-service-envoy/v2 v2.0.2-0.20211029193315-1898ceeea739 h1:F/wbJgN9OTmk9PoUcr3Mb2NuZTUonhdpgqhGhNgcTwo=
 github.com/apigee/apigee-remote-service-envoy/v2 v2.0.2-0.20211029193315-1898ceeea739/go.mod h1:+bAm+RK/IvVnX2uTtUNH2m7O0u0cYpgfn3UohG3xmcY=
+github.com/apigee/apigee-remote-service-golib/v2 v2.0.2-0.20211028211932-ca805faaa43b/go.mod h1:yNqXbiCNUL7u2bKjJF7wQlichgs/KyOBfg7a8ksgQEo=
+github.com/apigee/apigee-remote-service-golib/v2 v2.0.2-0.20211102200508-646e4794ecd1 h1:XBAo1r+kJ2AK/5KtPR33GsM308XA1NFwmqIs8c0YeQc=
+github.com/apigee/apigee-remote-service-golib/v2 v2.0.2-0.20211102200508-646e4794ecd1/go.mod h1:yNqXbiCNUL7u2bKjJF7wQlichgs/KyOBfg7a8ksgQEo=
 github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e/go.mod h1:3U/XgcO3hCbHZ8TKRvWD2dDTCfh9M9ya+I9JpbB7O8o=
 github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da/go.mod h1:Q73ZrmVTwzkszR9V5SSuryQ31EELlFMUz1kKyl939pY=
 github.com/armon/go-radix v0.0.0-20180808171621-7fddfc383310/go.mod h1:ufUuZ+zHj4x4TnLV4JWEpy2hxWSpsRywHrMgIH9cCH8=
