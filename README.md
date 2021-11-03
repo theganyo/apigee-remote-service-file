@@ -24,10 +24,10 @@ cp config-example.yaml config.yaml
 ./apigee-remote-service-file -h
 ```
 
-### Connect to Envoy Adapter
+### Connect Envoy Adapter
 
-The service will emit a simple config that can be consumed by 
-Envoy Adapter to connect. Hint: Use `-addr` flag to use a 
+This service will emit a simple config when it starts that can 
+be consumed by Envoy Adapter. Hint: Use `-addr` flag to use a 
 consistent port in order to avoid having to change your EA config
 on each start.
 
